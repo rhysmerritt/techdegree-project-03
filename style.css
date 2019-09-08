@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    max-width: 600px;
+}
+
+header {
+    background-color: #2D3946;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+.top {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    color: #2D3946;
+    margin-bottom: 24px;
+}
+
+.top h1 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.top p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #AAAFB4;
+    margin-bottom: 32px;
+}
+
+.line1 {
+    border: 2px solid #2D3946;
+    margin-bottom: 4px;
+}
+
+.line2 {
+    border: 1px solid #2D3946;
+}
+
+.fsone {
+    margin-bottom: 24px;
+}
+
+/**
+form {
+    display: flex;
+    flex-direction: column;
+}
+**/
+fieldset {
+/**    display: flex;
+    flex-direction: column;**/
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-block-start: 0;
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+    padding-block-end: 0;
+    min-inline-size: 0;
+    margin: auto;
+    width: 90%;
+}
+
+
+input[type=text],
+input[type=select],
+input[type=tel],
+input[type=email],
+select,
+textarea {
+    outline: none;
+    background: #EFF0F1;
+    padding: 16px 8px 16px 16px;
+    margin-bottom: 16px;
+    border: none;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #46698B;
+    font-family: 'Merriweather', serif;
+}
+
+select {
+    height: 52px;
+}
+
+.halvie {
+    margin-bottom: 32px !important;
+    max-width: 180px;
+}
+
+input:focus {
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    outline: none;
+    background: rgb(227, 228, 230);
+    box-shadow: inset 0 0 0 2px #46698B;
+}
+
+input::placeholder {
+    text-align: right;
+    color: rgb(186, 192, 197);
+    font-style: italic;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: 300;
+    font-stretch: normal;
+    font-size: 12px;
+    line-height: normal;
+    font-family: 'Merriweather', serif;
+    padding-right: 8px;
+}
+
+legend {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: #2D3946;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 300;
+    color: #707982;
+    margin-bottom: 8px;
+}
+
+fieldset label {
+    font-size: 14px;
+    font-weight: 300;
+    color: #2D3946;
+    margin-bottom: 16px;
+}
+
+.fsone label {
+    display: block;
+}
+
+.fstwo {
+    display: block;
+}
+
+.fstwolabel {
+    display: block;
+    line-height: 180%;
+}
+
+input[type=checkbox], 
+input[type=radio] {
+    margin-bottom: 16px;
+    margin-right: 8px;
+}
+
+.newslettergroup {
+    margin-bottom: 16px;
+}
+
+textarea {
+    min-height: 90px;
+    line-height: 150%;
+}
+
+button {
+    width: 100%;
+    height: 64px;
+    background-color: #4EBBB5;
+    color: white;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Merriweather', serif;
+    margin: 8px auto;
+}
+
+button:active {
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    background-color: rgb(64, 151, 147);
+}
+
+footer {
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+    color: #AAAFB4;
+    margin-top: 24px;
+    margin-bottom: 128px;
+    text-align: center;
+}
+
+/** Desktop classes **/
+
+@media (min-width: 768px) {
+
+
+
+}
