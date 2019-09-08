@@ -60,22 +60,7 @@ header {
     margin-bottom: 24px;
 }
 
-/**
-form {
-    display: flex;
-    flex-direction: column;
-}
-**/
 fieldset {
-/**    display: flex;
-    flex-direction: column;**/
-    margin-inline-start: 0;
-    margin-inline-end: 0;
-    padding-block-start: 0;
-    padding-inline-start: 0;
-    padding-inline-end: 0;
-    padding-block-end: 0;
-    min-inline-size: 0;
     margin: auto;
     width: 90%;
 }
@@ -217,6 +202,31 @@ footer {
 
 @media (min-width: 768px) {
 
+.top h1 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+.top {
+    margin-bottom: 48px;
+}
 
+header {
+    margin-bottom: 64px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+label {
+    flex-basis: 30%;
+}
+
+input,
+select {
+    flex-basis: 70%;
+}
 
 }
